@@ -4,10 +4,10 @@
 	 Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2021 v5.8.188
 	 Created on:   	4/29/2021 7:33 PM
 	 Created by:   	Cameron Kirkland
-	 Filename:     	Add Alias'
+	 Filename:     	Add Aliases
 	===========================================================================
 	.DESCRIPTION
-		Use this script to add alias' to users.
+		Use this script to add aliases to users.
 #>
 
 $Users = Get-Content C:\Import\"NewHires.txt"
