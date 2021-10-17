@@ -1,5 +1,5 @@
 #Run on prem:
-Add-ADPermission -Identity "JohnDoe@domain.com" -User "JohnDoe" -AccessRights ExtendedRight -ExtendedRights "Send As"
+Add-ADPermission -Identity "FredDoe@domain.com" -User "JohnDoe" -AccessRights ExtendedRight -ExtendedRights "Send As"
 
 #Run through exchange online powershell
 Add-RecipientPermission -Identity "All Email Users" -Trustee "JohnDoe" -AccessRights SendAs
