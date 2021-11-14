@@ -1,0 +1,1 @@
+Get-DynamicDistributionGroup -Identity 'Marketing' | Select RecipientFilter | FL | Out-File C:\Export\MarketingFilter.txt
