@@ -1,0 +1,1 @@
+Get-DynamicDistributionGroup -Identity "Example" | FL
