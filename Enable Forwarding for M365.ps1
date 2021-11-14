@@ -1,0 +1,1 @@
+Set-Mailbox -Identity 'John Doe' -ForwardingAddress 'Jane Doe' -DeliverToMailboxAndForward $true 
