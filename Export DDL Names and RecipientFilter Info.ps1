@@ -1,0 +1,1 @@
+Get-DynamicDistributionGroup | Select Name,RecipientFilter | FL | Out-File C:\Scripts\InsertNameHere.txt
