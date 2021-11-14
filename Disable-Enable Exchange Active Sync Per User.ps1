@@ -1,0 +1,1 @@
+Set-CASMailbox "Wayne Baker" -ActiveSyncEnabled $FALSE
