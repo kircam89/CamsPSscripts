@@ -1,0 +1,1 @@
+Get-Recipient -RecipientPreviewFilter (Get-DynamicDistributionGroup "321").RecipientFilter -ResultSize Unlimited -OrganizationalUnit $group.recipientcontainer | Format-Table -Property Name -AutoSize | Out-File C:\Export\321Recipients.txt
